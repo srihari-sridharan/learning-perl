@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 # The pragmas below helps us write 'clean code' in Perl
-use strict;    # similar to JS use strict
+use strict;
 use warnings;
 use diagnostics;
 use 5.18.0;
