@@ -76,9 +76,11 @@ sub evaluate {
     }
 }
 
-evaluate(0);                # false
-evaluate(1);                # true
-evaluate("");               # false
+evaluate(0);     # false
+evaluate(1);     # true
+evaluate("");    # false
+evaluate('Some other string')
+  ;              # true - Strings can also use '' instead of "" as in JS
 evaluate("Some String");    # true
 my @arr = ();
 evaluate(@arr);             # false
