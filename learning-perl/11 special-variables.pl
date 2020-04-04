@@ -127,7 +127,6 @@ say $separator;
 say "\$^V prints version of Perl";
 say $^V;
 say $separator;
-say $UID;
 
 # Remember: Special variables are documented @https://perldoc.perl.org/perlvar.html
 say "Remember --> See https://perldoc.perl.org/perlvar.html";
