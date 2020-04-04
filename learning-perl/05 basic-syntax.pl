@@ -80,7 +80,7 @@ evaluate(0);     # false
 evaluate(1);     # true
 evaluate("");    # false
 evaluate('Some other string')
-  ;              # true - Strings can also use '' instead of "" as in JS
+  ; # true - Strings can also use '' instead of "" as in JS. But interpolation doesn't work on '' and works only on "".
 evaluate("Some String");    # true
 my @arr = ();
 evaluate(@arr);             # false

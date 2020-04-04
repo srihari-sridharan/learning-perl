@@ -16,7 +16,9 @@ sub main {
 }
 
 sub countlines {
-    my $filename = shift();
+    my $filename = shift()
+      ; #shift function by default uses the default array variable - covered in 11 special-variables.pl.
+        # you can call shift with or without the parenthesis shift() or shift
     error("Filename is not set!") unless $filename;
 
     my $fh = IO::File->new( $filename, "r" )
