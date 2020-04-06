@@ -250,9 +250,9 @@ print "Decimals: ";
 print foreach (@numbers);
 say "";
 
-my $lower   = 0;
-my $upper   = 9;
-my @numbers = ( $lower .. $upper, 'a' .. 'f' );
+$lower   = 0;
+$upper   = 9;
+@numbers = ( $lower .. $upper, 'a' .. 'f' );
 print "Hexadecimals: ";
 print foreach (@numbers);
 say "";
