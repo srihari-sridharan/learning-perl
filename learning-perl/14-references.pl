@@ -5,6 +5,8 @@ use warnings;
 use diagnostics;
 use 5.18.0;
 use feature 'say';
+my $separator =
+"-------------------------------------------------------------------------------------";
 
 # Reference is a scalar that refers to a value. The target value may be a scalar, array, hash or a function.
 # We create a reference with the \ - reference operator
@@ -32,8 +34,6 @@ use feature 'say';
 # Handy in creating complex data strucures.
 
 # ref function returns the type of the reference value.
-my $separator =
-"-------------------------------------------------------------------------------------";
 
 # Array References
 say "Array reference";
