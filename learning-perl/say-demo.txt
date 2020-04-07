@@ -1,0 +1,1 @@
+This is a line of text written to file using say function.
