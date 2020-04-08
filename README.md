@@ -1,4 +1,4 @@
-# perl5-essential-training
+# learning-perl
 
 This repository helps anyone learn Perl from scratch.
 
